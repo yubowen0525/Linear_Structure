@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="centos_localhost (10193b80-fcd9-4589-a703-b33e9580384a)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="centos_localhost (29954de1-d873-4627-9fb7-b5a1d0be8e00)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.0hWZekihz5" local="$PROJECT_DIR$/Linear_Table" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/Linear_Table/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/Linear_Table/cmake-build-debug" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="腾讯云 (728b1ecd-aad8-4c25-88f5-ab45c66700d6)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

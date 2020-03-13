@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="10193b80-fcd9-4589-a703-b33e9580384a" name="centos_localhost (10193b80-fcd9-4589-a703-b33e9580384a)" url="http:///">
+        <fileTransfer host="192.168.65.247" port="22" rootFolder="/root" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
