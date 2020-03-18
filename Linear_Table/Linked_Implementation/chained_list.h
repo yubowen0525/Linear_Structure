@@ -50,6 +50,7 @@ public:
     }
     void push_back(const ElementType X);
     void push_front(const ElementType X);
+    ElementType pop_front();
     //插入，//将 X 插入到第 i-1(i>0) 个结点之后
     void Insert(const ElementType X,int index);
     //以遍历链表的方法求链表长度

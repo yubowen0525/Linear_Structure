@@ -12,5 +12,4 @@ add_executable(Linear_Table
         Array_Implementation/LinearList.h
         Linked_Implementation/chained_list.cpp
         Linked_Implementation/chained_list.h
-        CMakeLists.txt
         main.cpp)

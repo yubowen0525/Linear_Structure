@@ -133,6 +133,18 @@ int chained_list<ElementType>::Delete(int index)
     return TRUE;
 }
 
+template <class ElementType>
+ElementType chained_list<ElementType>::pop_front()
+{
+    PtrToLNode first_node = head->Next;
+    if(first_node == nullptr)
+        return ElementType();
+    ElementType X =  first_node->Data;
+
+    head->Next = first_node->Next;
+    return X;
+}
+
 template class chained_list<int>;
 template class chained_list<char>;
 template class chained_list<string>;
